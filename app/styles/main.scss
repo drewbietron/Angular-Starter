@@ -1,0 +1,66 @@
+// Normalize & CSS Reset
+
+@import "partials/normalize";
+@import "partials/reset";
+
+// Variables and mixins
+
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/fonts";
+
+// Base
+
+@import "pages/1_Mobile/base";
+@import "pages/1_Mobile/nav";
+@import "pages/1_Mobile/header";
+
+// Media Queries
+
+// 480px
+@media only screen and (min-width: 480px) {
+@import "pages/2_480/base";
+@import "pages/2_480/nav";
+@import "pages/2_480/header";
+}
+
+// 600px
+@media only screen and (min-width: 600px) {
+@import "pages/3_600/base";
+@import "pages/3_600/nav";
+@import "pages/3_600/header";
+}
+
+// 768px
+@media only screen and (min-width: 768px) {
+@import "pages/4_768/base";
+@import "pages/4_768/nav";
+@import "pages/4_768/header";
+}
+
+// 992px
+@media only screen and (min-width: 992px) {
+@import "pages/5_992/base";
+@import "pages/5_992/nav";
+@import "pages/5_992/header";
+}
+
+// 1382px
+@media only screen and (min-width: 1382px) {
+@import "pages/6_1382/base";
+@import "pages/6_1382/nav";
+@import "pages/6_1382/header";
+}
+
+// 2x
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+@import "media/2x"; }
+
+// Print
+
+@media print {
+@import "media/print";
+}

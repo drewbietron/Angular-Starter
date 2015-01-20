@@ -25,6 +25,11 @@ $ grunt serve
 ```
 **If you get errors running Grunt, make sure that you have the [Grunt & The Grunt CLI](https://github.com/gruntjs/grunt) installed
 
+Your app will be running on 
+```
+http://localhost:3000
+```
+
 ## Dependencies
 
 All dependencies are handled by [Bower](https://github.com/bower/bower) and are installed by running
