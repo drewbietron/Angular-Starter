@@ -31,6 +31,17 @@ $ grunt serve
 ```
 **If you get errors running Grunt, make sure that you have the [Grunt & The Grunt CLI](https://github.com/gruntjs/grunt) installed
 
+## Dependencies
+
+All dependencies are handled by [Bower](https://github.com/bower/bower) and are installed by running
+```
+bower install package_name
+```
+Once installed, you can see your list of installed dependences in /bower.json - You can also change the version number of these dependencies right in this file and then run 
+```
+bower update
+```
+
 ## Generators
 
 [Available generators](https://github.com/yeoman/generator-angular#generators) 
