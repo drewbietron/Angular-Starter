@@ -18,13 +18,7 @@ Once you have *yo* installed, you will need to install the Angular generator
 $ npm install -g generator-angular
 ```
 
-Run yo angular, optionally passing an app name:
-
-```
-$ yo angular [app-name]
-```
-
-To run a local server
+## To run a local server
 
 ```
 $ grunt serve
@@ -44,7 +38,7 @@ bower update
 
 ## Generators
 
-[Available generators](https://github.com/yeoman/generator-angular#generators) 
+Run these generators in conjunction with the Yeoman's Angular generator for quickly scaffilding routes, directives, controllers, all sorts of stuff.  [Available generators](https://github.com/yeoman/generator-angular#generators) 
 
 **Note: Generators are to be run from the root directory of your app.**
 
