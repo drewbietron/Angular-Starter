@@ -18,7 +18,18 @@ Once you have *yo* installed, you will need to install the Angular generator
 $ npm install -g generator-angular
 ```
 
-You are now ready to get started with the MEAN.JS generator. The generator will help you create a MEAN.JS application, a CRUD module, Angular Module, and other AngularJS/Express entities.
+Run yo angular, optionally passing an app name:
+
+```
+$ yo angular [app-name]
+```
+
+To run a local server
+
+```
+$ grunt serve
+```
+**If you get errors running Grunt, make sure that you have the [Grunt & The Grunt CLI](https://github.com/gruntjs/grunt) installed
 
 ## Generators
 
