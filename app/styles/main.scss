@@ -6,14 +6,14 @@
 // Variables and mixins
 
 @import "partials/variables";
-@import "partials/mixins";
+@import "../bower_components/bourbon/dist/bourbon";
 @import "partials/fonts";
 
 // Base
 
-@import "pages/1_Mobile/base";
-@import "pages/1_Mobile/nav";
-@import "pages/1_Mobile/header";
+@import "pages/1_Base/base";
+@import "pages/1_Base/nav";
+@import "pages/1_Base/header";
 
 // Media Queries
 
