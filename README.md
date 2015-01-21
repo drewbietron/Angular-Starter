@@ -2,7 +2,7 @@
 
 ## Overview
 
-Starter template for AngularJS apps.  Built using the [Yeoman Angular Generator](https://github.com/yeoman/generator-angular).  Added [320+](http://stuffandnonsense.co.uk/projects/320andup/) for the responsive-ness.  Breakpoints at 480, 600, 768, 992 and 1382.  Uses the [Skeleton CSS Grid](https://github.com/dhg/Skeleton/).
+Starter template for AngularJS apps.  Built using the [Yeoman Angular Generator](https://github.com/yeoman/generator-angular).  Added [320+](http://stuffandnonsense.co.uk/projects/320andup/) for the responsive-ness.  Breakpoints at 480, 600, 768, 992 and 1382.  Uses the [Skeleton CSS Grid](https://github.com/dhg/Skeleton/) and the [Bourbon SASS Mixin Library](http://bourbon.io/docs/#px-to-rem).
 
 ## Getting Started
 
@@ -29,6 +29,8 @@ Your app will be running on
 ```
 http://localhost:3000
 ```
+
+## CSS
 
 ## Dependencies
 
