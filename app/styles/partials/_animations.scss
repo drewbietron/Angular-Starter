@@ -1,0 +1,21 @@
+.ng-enter {
+    animation: slideInRight 0.5s;
+    min-height: 100px;
+}
+/* starting animations for enter */
+
+.ng-enter.ng-enter-active {
+    animation: slideInRight 0.5s;
+    min-height: 100px;
+}
+/* terminal animations for enter */
+
+.ng-leave {
+    animation: slideOutLeft 0.5s;
+}
+/* starting animations for leave */
+
+.ng-leave.ng-leave-active {
+    animation: slideOutLeft 0.5s;
+}
+/* terminal animations for leave */

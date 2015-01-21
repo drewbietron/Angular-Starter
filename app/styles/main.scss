@@ -7,9 +7,11 @@
 
 @import "../bower_components/bourbon/dist/bourbon";
 @import "library/skeleton";
+@import "library/animate";
 
 // Variables and mixins
 
+@import "partials/animations";
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/fonts";
