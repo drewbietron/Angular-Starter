@@ -30,8 +30,6 @@ Your app will be running on
 http://localhost:3000
 ```
 
-## CSS
-
 ## Dependencies
 
 All dependencies are handled by [Bower](https://github.com/bower/bower) and are installed by running

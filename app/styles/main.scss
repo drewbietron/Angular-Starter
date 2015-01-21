@@ -6,19 +6,21 @@
 // Libraries
 
 @import "../bower_components/bourbon/dist/bourbon";
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "library/skeleton";
 
 // Variables and mixins
 
 @import "partials/variables";
-
+@import "partials/mixins";
 @import "partials/fonts";
 
 // Base
 
 @import "pages/1_Base/base";
+@import "pages/1_Base/type";
 @import "pages/1_Base/nav";
 @import "pages/1_Base/header";
+
 
 // Media Queries
 

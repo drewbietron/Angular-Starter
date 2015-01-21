@@ -1,3 +1,18 @@
-h1 {
-	font-size: rem(100);
+body {
+	font-size: rem(14);
+}
+
+h1 { 
+	font-size: rem(64);
+	line-height: rem(72);
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: rem(58);
+	line-height: rem(62);
+}
+
+p {
+ 	font-size: rem(14);
+	line-height: rem(14);
 }
