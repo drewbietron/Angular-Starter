@@ -3,10 +3,15 @@
 @import "reset/normalize";
 @import "reset/reset";
 
+// Libraries
+
+@import "../bower_components/bourbon/dist/bourbon";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
 // Variables and mixins
 
 @import "partials/variables";
-@import "../bower_components/bourbon/dist/bourbon";
+
 @import "partials/fonts";
 
 // Base
